@@ -1,0 +1,87 @@
+/* Center the video and elements on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the screen */
+    margin: 0; /* Remove default margins */
+    background-color: #f0f0f0; /* Light background */
+    font-family: Arial, sans-serif; /* Set font */
+  }
+  
+  .video-container {
+    text-align: center; /* Center content inside the video container */
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: hsl(196, 33%, 47%);
+  }
+  
+  video {
+    border: 2px solid #000; /* Optional: Border around the video */
+    margin-top: 20px;
+    width: 80%; /* Set the width of the video to 80% of the container */
+  }
+  /* Existing styles from your original style.css */
+
+/* Add any styles you already had here */
+
+/* Quiz and Result Page Styles */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .quiz-container, .result-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #question-container {
+    margin: 20px 0;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  #options-container {
+    margin-top: 20px;
+  }
+  
+  #options-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #score {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  

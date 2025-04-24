@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Language Video Practice</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- TensorFlow.js + MediaPipe Hands -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgl"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+</head>
+<body>
+  <div class="video-container">
+    <h1>Search for Sign Language Videos</h1>
+
+    <input type="text" id="searchInput" placeholder="Search for 'hello' or 'alphabets'" />
+    <button onclick="searchVideo()">Search</button>
+
+    <div id="videoPlayerContainer" style="display: none;">
+      <video id="videoPlayer" width="600" controls>
+        <source src="" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- GIF container for displaying GIFs -->
+    <div id="gifPlayerContainer" style="display: none;">
+      <img id="gifPlayer" width="600" alt="GIF Preview" />
+    </div>
+
+  </div>
+
+  <script src="style.js"></script>
+  <script src="practice.js"></script>
+</body>
+</html>

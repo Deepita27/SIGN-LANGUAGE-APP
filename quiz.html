@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Language Quiz</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Sign Language Quiz</h1>
+
+    <!-- Question and Options -->
+    <div id="quiz">
+      <h2>Question <span id="question-number">1</span></h2>
+      <img id="question-image" src="" alt="Sign Language" />
+      <div class="options">
+        <button class="option" onclick="selectAnswer(0)"></button>
+        <button class="option" onclick="selectAnswer(1)"></button>
+        <button class="option" onclick="selectAnswer(2)"></button>
+        <button class="option" onclick="selectAnswer(3)"></button>
+      </div>
+    </div>
+
+    <!-- Results -->
+    <div id="result" class="hidden">
+      <h2>Quiz Completed!</h2>
+      <p>Your score is: <span id="score-text"></span></p>
+      <button onclick="restartQuiz()">Try Again</button>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
