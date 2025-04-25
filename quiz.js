@@ -1,46 +1,46 @@
 const quizData = [
     {
-      image: "questions/don't know.jpeg",
+      image: "don't know.jpeg",
       options: ["hi", "don't know", "movie", "jump"],
       correct: 1
     },
     {
-      image: "questions/hi.jpeg",
+      image: "hi.jpeg",
       options: ["sorry", "salute", "bye", "Hi"],
       correct: 3
     },
     {
-      image: "questions/icecream.jpeg",
+      image: "icecream.jpeg",
       options: ["juice", "chips", "icecream", "cake"],
       correct: 2
     },
     {
-      image: "questions/potato.png",
+      image: "potato.png",
       options: ["cucumber", "potato", "Onion", "carrot"],
       correct: 2
     },
     {
-      image: "questions/practice.jpeg",
+      image: "practice.jpeg",
       options: ["practice", "handwork", "dedication", "okay"],
       correct: 0
     },
     {
-      image: "questions/sorry.jpeg",
+      image: "sorry.jpeg",
       options: ["bye", "please", "sorry", "love"],
       correct: 2
     },
     {
-      image: "questions/thank you.jpeg",
+      image: "thank you.jpeg",
       options: ["nice", "thank you", "welcome", "miss you"],
       correct: 1
     },
     {
-      image: "questions/water.jpeg",
+      image: "water.jpeg",
       options: ["water", "juice", "cow", "bottle"],
       correct: 0
     },
     {
-      image: "questions/watermelon.jpeg",
+      image: "watermelon.jpeg",
       options: ["mango", "watermelon", "strawberry", "kiwi"],
       correct: 1
     }
