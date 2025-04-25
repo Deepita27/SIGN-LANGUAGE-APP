@@ -7,17 +7,17 @@ function searchVideo() {
   
     // Update your list with new videos and gifs
     const videoMap = {
-      "hello": "videos/hello.mp4",
-      "alphabets": "videos/alphabets.mp4",
-      "hi": "videos/HII.gif",
-      "what are you doing": "videos/what are you doing.gif",
-      "how are you doing": "videos/how are you doing.gif",
-      "i do not know": "videos/i do not know.gif",
-      "practice": "videos/practice.mp4",
-      "water": "videos/water.gif",
-      "ice cream": "videos/ice cream.gif",
-      "watermelon": "videos/watermelon.gif",
-      "potato": "videos/potato.gif"
+      "hello": "hello.mp4",
+      "alphabets": "alphabets.mp4",
+      "hi": "HII.gif",
+      "what are you doing": "what are you doing.gif",
+      "how are you doing": "how are you doing.gif",
+      "i do not know": "i do not know.gif",
+      "practice": "practice.mp4",
+      "water": "water.gif",
+      "ice cream": "ice cream.gif",
+      "watermelon": "watermelon.gif",
+      "potato": "potato.gif"
     };
   
     const selectedFile = videoMap[input];
